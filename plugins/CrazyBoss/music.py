@@ -10,7 +10,7 @@ from asgiref.sync import sync_to_async
 
 from pyrogram import Client
 
-from pyrogram import filters,
+from pyrogram import filters
 
 from random import randint
 
