@@ -10,7 +10,7 @@ from asgiref.sync import sync_to_async
 
 from pyrogram import Client
 
-from pyrogram import filters,enums
+from pyrogram import filters,
 
 from random import randint
 
@@ -108,7 +108,7 @@ async def song(_, message):
 
           path = await download_songs(query,randomdir)
 
-         await k.edit('uploading')
+    
 
           await message.reply_audio(path)
 
