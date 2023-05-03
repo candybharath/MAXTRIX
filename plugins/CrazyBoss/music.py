@@ -38,7 +38,7 @@ async def download_songs(query, download_directory='.'):
             print(e)
     return video 
 
-@Mbot.on_message(
+@Client.on_message(
     filters.command('music') 
     & filters.text & filters.incoming
 )
