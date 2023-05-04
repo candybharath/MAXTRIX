@@ -3,6 +3,7 @@ from yt_dlp import YoutubeDL
 from youtube_search import YoutubeSearch
 import requests
 import os
+import yt_dlp
 import time
 import asyncio
 from config import Config
