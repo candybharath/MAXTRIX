@@ -84,7 +84,7 @@ async def song(_, message):
 
       try:
 
-          k = await message.reply("⌛")
+          k = await message.reply("✨Fecthing.....")
 
           print ('⌛')
 
@@ -102,7 +102,7 @@ async def song(_, message):
 
           query = message.text.split(None, 1)[1]
 
-          await k.edit("downloading")
+          await k.edit("⏬ uploading....")
 
           print('downloading')
 
