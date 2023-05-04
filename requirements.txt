@@ -51,3 +51,4 @@ py-tgcalls
 ffmpeg
 asgiref
 enums
+yt_dlp
